@@ -5,7 +5,6 @@
   "trailingComma": "es5",
   "printWidth": 3000,
   "svelteAllowShorthand": true,
-  "svelteBracketNewLine": false,
   "svelteIndentScriptAndStyle": false,
   "svelteSortOrder": "options-scripts-markup-styles",
   "svelteStrictMode": false,
