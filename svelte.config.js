@@ -4,6 +4,10 @@ import { vitePreprocess } from '@sveltejs/kit/vite'
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
+  vitePlugin: {
+    inspector: true,
+  },
+
   preprocess: [
     vitePreprocess(),
     preprocess({
